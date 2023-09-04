@@ -20,9 +20,9 @@
     "pagers"
   ],
   "author": {
-    "name": "InSeong-So",
-    "email": "goflvhxj2547@gmail.com",
-    "url": "https://github.com/inseong-so"
+    "name": "seoyoung",
+    "email": "choisy9619@gmail.com",
+    "url": "https://github.com/choisy9619"
   },
   "devEngines": {
     "node": "16.x || 18.x || 19.x || 20.x"
@@ -43,10 +43,10 @@
     "@typescript-eslint/eslint-plugin": "^6.4.1",
     "@typescript-eslint/parser": "^6.4.1",
     "eslint": "^8.48.0",
-    "eslint-plugin-import": "^2.28.1",
-    "eslint-plugin-react": "^7.33.2",
     "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.28.1",
     "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react": "^7.33.2",
     "prettier": "^3.0.2",
     "typescript": "5.2.2"
   }

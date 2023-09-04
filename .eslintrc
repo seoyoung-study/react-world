@@ -28,6 +28,34 @@
     }
   },
   "rules": {
+    "import/extensions": "off",
+    "import/no-extraneous-dependencies" : "off",
+    "import/prefer-default-export" : "off",
+    "import/order": [
+      "error",
+      {
+        "newlines-between": "always",
+        "groups": [
+          ["builtin", "external"],
+          "internal",
+          "parent",
+          "sibling",
+          "index"
+        ],
+        "pathGroups": [
+          {
+            "pattern": "{react*,react*/**,next*,next*/**}",
+            "group": "external",
+            "position": "before"
+          }
+        ],
+        "pathGroupsExcludedImportTypes": ["react", "next"],
+        "alphabetize": {
+          "order": "asc",
+          "caseInsensitive": true
+        }
+      }
+    ],
     "react/react-in-jsx-scope": "off",
     "react/jsx-props-no-spreading": 0,
     "prettier/prettier": ["error", { "endOfLine": "auto" }],
@@ -37,6 +65,7 @@
       "checksVoidReturn": {
         "attributes": false
       }
-    }]
+    }],
+    "unused-imports/no-unused-imports": "error"
   }
 }

@@ -17,7 +17,7 @@
     "ecmaFeatures": {
       "jsx": true
     },
-  "ignorePatterns": ["webpack.config.js"],
+  "ignorePatterns": ["webpack.config.js", ".eslintrc.cjs"],
     "ecmaVersion": "latest",
     "sourceType": "module",
     "project": "./tsconfig.json"
@@ -65,7 +65,6 @@
       "checksVoidReturn": {
         "attributes": false
       }
-    }],
-    "unused-imports/no-unused-imports": "error"
+    }]
   }
 }
